@@ -1,107 +1,13 @@
-/* Body and Background */
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #000; /* Solid black background */
-    color: #d4af37; /* Gold text */
-  }
-  
-  /* Main Container */
-  .container {
-    max-width: 500px;
-    margin: 50px auto;
-    padding: 20px;
-    text-align: center;
-    background: linear-gradient(145deg, #1c1c1c, #000); /* Subtle black gradient */
-    border-radius: 15px;
-    box-shadow: 0 8px 15px rgba(212, 175, 55, 0.3); /* Gold shadow */
-    border: 2px solid #d4af37; /* Gold border */
-  }
-  
-  /* Title */
-  h1 {
-    color: #d4af37; /* Gold */
-    margin-bottom: 20px;
-    font-size: 2rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 5px rgba(212, 175, 55, 0.7); /* Gold glow */
-  }
-  
-  /* Search Section */
-  .search {
-    margin-bottom: 20px;
-  }
-  
-  #city-input {
-    width: 70%;
-    padding: 10px;
-    font-size: 16px;
-    border: 2px solid #d4af37; /* Gold border */
-    border-radius: 5px;
-    background: #1c1c1c; /* Dark background */
-    color: #d4af37; /* Gold text */
-  }
-  
-  #city-input::placeholder {
-    color: #d4af37; /* Gold placeholder text */
-  }
-  
-  #search-btn {
-    padding: 10px 20px;
-    font-size: 16px;
-    background: #d4af37; /* Gold background */
-    color: #000; /* Black text */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background 0.3s ease, transform 0.2s ease;
-  }
-  
-  #search-btn:hover {
-    background: #e5bf55; /* Brighter gold */
-    transform: scale(1.05);
-  }
-  
-  /* Weather Info Section */
-  .weather-info {
-    margin-top: 20px;
-    padding: 15px;
-    border: 1px solid #d4af37; /* Gold border */
-    border-radius: 10px;
-    background: #1c1c1c; /* Dark background */
-    box-shadow: 0 5px 10px rgba(212, 175, 55, 0.2); /* Gold glow */
-  }
-  
-  .weather-info h2,
-  .weather-info p {
-    margin: 10px 0;
-    color: #d4af37; /* Gold text */
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .weather-info h2 {
-    font-size: 22px;
-    text-decoration: underline;
-  }
-  
-  .weather-info p {
-    font-weight: normal;
-    font-style: italic;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    #city-input {
-      width: 100%;
-    }
-  
-    #search-btn {
-      margin-top: 10px;
-      width: 100%;
-    }
-  }
-  
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 2rem;
+}
+.container {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 12px;
+}
